@@ -8,7 +8,6 @@ public class tp1java {
         int periodo;
         float total=0;
         Scanner Scanin= new Scanner(System.in);
-        System.out.println("Hola mundo");
         System.out.println("Ingrese el monto: ");
         capital=Scanin.nextFloat();
         System.out.println("Ingrese la tasa de interes porcentaje");
