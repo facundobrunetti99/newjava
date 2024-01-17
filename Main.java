@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -46,8 +46,9 @@ public class Main {
         System.out.println("Apellido: "+personas.get(i).getApellido()+" Nombre: "+personas.get(i).getNombre());
     }
 
-
-
+    System.out.println("--------------------------------------------");
+    System.out.println("--------------------------------------------");
+    System.out.println("--------------------------------------------");
 
     System.out.println("Ordenado por Nombre");
     Collections.sort(personas, new Comparator<Persona>() {
@@ -60,6 +61,9 @@ public class Main {
         System.out.println("Apellido: "+personas.get(i).getApellido()+" Nombre: "+personas.get(i).getNombre());
     }
          
+    System.out.println("--------------------------------------------");
+    System.out.println("--------------------------------------------");
+    System.out.println("--------------------------------------------");
        
 
        System.out.println("Ordenado por Apellido (en orden inverso)");
