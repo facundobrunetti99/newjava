@@ -1,9 +1,7 @@
 import java.util.Scanner;
 public class tp1java {
-   
- 
     public static void main(String[] args) {
-        float capital;
+   /*      float capital;
         float interes;
         int periodo;
         float total=0;
@@ -19,6 +17,6 @@ public class tp1java {
         System.out.println("Monto total a pagar: "+total);
         double parteEntera=Math.floor(total);
         System.out.println("Parte entera: "+parteEntera);
-        System.out.println("Parte decimal: "+(total-parteEntera));
+        System.out.println("Parte decimal: "+(total-parteEntera)); */
     }
 }
