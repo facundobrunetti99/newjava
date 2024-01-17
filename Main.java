@@ -60,12 +60,20 @@ public class Main {
         System.out.println("Apellido: "+personas.get(i).getApellido()+" Nombre: "+personas.get(i).getNombre());
     }
          
+       
+
+       System.out.println("Ordenado por Apellido (en orden inverso)");
+       Collections.sort(personas, new Comparator<Persona>() {
+           @Override
+           public int compare(Persona p1, Persona p2) {
+               return new String(p2.getApellido()).compareTo(new String(p1.getApellido()));
+           }
+       });
+       
+       for (int i = 0; i < personas.size(); i++) {
+           System.out.println("Apellido: " + personas.get(i).getApellido() + " Nombre: " + personas.get(i).getNombre());
        }
-
-
-
-
-
+    }
         
     }
 
